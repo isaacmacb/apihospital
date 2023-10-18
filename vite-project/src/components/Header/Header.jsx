@@ -80,14 +80,14 @@ const Header = () => {
                 </div>
 
                 <Link to="/login">
-                  <button className="bg-blue-500 py-2 px-6 text-white font-semibold h-44px flex items-center justify-center rounded-full">
+                  <button className="bg-primaryColor py-2 px-6 text-white font-[600] h-[44] flex items-center justify-center rouded-[50px]">
                       Login
                   </button> 
                 </Link>
       
 
-                <span className="md:hidd" onClick={toggleMenu}>
-                  <BiMenu className='w-6 h-6 cursor-pointer'/>
+                <span className="md:hidden" onClick={toggleMenu}>
+                  <BiMenu className="w-6 h-6 cursor-pointer" />
                 </span>
 
               </div>

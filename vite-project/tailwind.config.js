@@ -1,17 +1,22 @@
-/** @type {import('tailwindcss').Config} */
+// tailwind.config.js
+
 export default {
   content: [
-    "./index.html", // Remova o asterisco (*)
-    "./src/**/*.{js,ts,jsx,tsx}", // Remova o asterisco (*)
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
-      primaryColor: "#0067FF",
-      yellowColor: "#FEB60D",
-      purpleColor: "#9771FF",
-      irisBlueColor: "#01B5C5",
-      headingColor: "#181A1E",
-      textColor: "#4E545F",
+      backgroundColor: {
+        'primaryColor': 'var(--primaryColor)',
+        'yellowColor': 'var(--yellowColor)',
+        'purpleColor': 'var(--purpleColor)',
+      },
+      textColor: {
+        'headingColor': 'var(--headingColor)',
+        'textColor': 'var(--textColor)',
+      },
+      extend: {},
     },
   },
   plugins: [],
