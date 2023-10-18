@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import { useEffect, useRef } from 'react'; // Corrigi um erro de digitação na importação
-import logo from '../../assets/images/logo.png';
+import logo from '../../assets/images/hospital.png';
 import { NavLink } from 'react-router-dom';
 import userImg from '../../assets/images/avatar.png'
 import { Link } from 'react-router-dom';
@@ -50,7 +50,7 @@ const Header = () => {
         <div className='flex items-center justify-between'>
           {/*============logo===========*/}
           <div>
-            <img src={logo} width={"100px"} alt="" />
+            <img src={logo} width={"60px"} alt="" />
           </div>
 
           {/*============menu===========*/}

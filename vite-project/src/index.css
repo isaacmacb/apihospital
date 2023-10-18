@@ -52,5 +52,18 @@
         @apply text-[16px] leading-7 mt-3
     }
 }
+.heading {
+    text-align: center; /* Centralizar o texto horizontalmente */
+    margin-top: 30px; 
+  }
+  
+  section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+  }
+  
 
 }
