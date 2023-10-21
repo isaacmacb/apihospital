@@ -80,11 +80,10 @@ const Home = () => {
       <div className='container'>
         <div className='lg:w-[470px] mx-auto'>
           <h2 className='heading text-center'>
-            Providing the best medical services
+          Oferecendo os melhores serviços médicos
             </h2>
             <p className='text__para text-center'>
-              World-class care for everyone. Our helth system offers unmathed expert health care
-            </p>
+            Cuidado de classe mundial para todos. Nosso sistema de saúde oferece cuidados de saúde especializados incomparáveis            </p>
         </div>
 
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-[30px] mt-[30px] lg:mt-[55px]'>
@@ -96,11 +95,10 @@ const Home = () => {
 
             <div className='mt-[30px]'>
               <h2 className='text-[26px] leading-9 text-headingColor font-[700] text-center'>
-                  Find a Doctor
+              Encontre um médico
               </h2>
               <p className='text-[16px] leading-7 text-textColor font-[400] mt-4 text-center'>
-                World-class care for everyone. our health system offers unmatched, expert health care. from the lab to the clinic
-              </p>
+              Cuidado de classe mundial para todos. nosso sistema de saúde oferece cuidados de saúde especializados e incomparáveis. do laboratório para a clínica              </p>
 
             <Link to="/doctors" className="w-[44px] rounded-full border border-solid border-[#181E1E] mt-[30px] mx-auto flex items-center justify-center group hover:bg-primaryColor hover:border-non" >
               <BsArrowRight className='group-hover:text-white w-6 h-5'/>
@@ -116,11 +114,10 @@ const Home = () => {
 
             <div className='mt-[30px]'>
               <h2 className='text-[26px] leading-9 text-headingColor font-[700] text-center'>
-                  Find a Location
+              Encontre um local
               </h2>
               <p className='text-[16px] leading-7 text-textColor font-[400] mt-4 text-center'>
-                World-class care for everyone. our health system offers unmatched, expert health care. from the lab to the clinic
-              </p>
+              Encontre facilmente o caminho para nossas clínicas. Estamos sempre próximos a você, prontos para oferecer cuidados de saúde de qualidade. Use nosso aplicativo ou visite nosso site para localizar a clínica mais próxima              </p>
 
             <Link to="/doctors" className="w-[44px] rounded-full border border-solid border-[#181E1E] mt-[30px] mx-auto flex items-center justify-center group hover:bg-primaryColor hover:border-non" >
               <BsArrowRight className='group-hover:text-white w-6 h-5'/>
@@ -136,11 +133,10 @@ const Home = () => {
 
             <div className='mt-[30px]'>
               <h2 className='text-[26px] leading-9 text-headingColor font-[700] text-center'>
-                  Book appointment
+                Agendamento de consultas
               </h2>
               <p className='text-[16px] leading-7 text-textColor font-[400] mt-4 text-center'>
-                World-class care for everyone. our health system offers unmatched, expert health care. from the lab to the clinic
-              </p>
+              Agende sua consulta com praticidade e segurança! Nossa equipe está pronta para cuidar da sua saúde. Entre em contato e marque seu horário hoje mesmo.              </p>
 
             <Link to="/doctors" className="w-[44px] rounded-full border border-solid border-[#181E1E] mt-[30px] mx-auto flex items-center justify-center group hover:bg-primaryColor hover:border-non" >
               <BsArrowRight className='group-hover:text-white w-6 h-5'/>
