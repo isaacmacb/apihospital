@@ -8,19 +8,19 @@ import {BiMenu} from 'react-icons/bi'
 const navLinks = [
   {
     path: '/home',
-    display: 'Home',
+    display: 'Inicio',
   },
   {
     path: '/doctors',
-    display: 'Find a Doctor',
+    display: 'Encontre um médico',
   },
   {
     path: '/services',
-    display: 'Services',
+    display: 'Serviços',
   },
   {
     path: '/contact',
-    display: 'Contact',
+    display: 'Contato',
   },
 ];
 

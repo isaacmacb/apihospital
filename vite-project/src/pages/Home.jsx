@@ -22,8 +22,7 @@ const Home = () => {
             <div>
               <div className='lg:w-[570px]'>
                 <h1 className='text-[36px] leading-[46px] text-headingColor font-[800] md:text-[36px] md:leading-[46px]'>
-                  We help patients live a healthy, longer life
-                </h1>
+                Ajudamos os pacientes a ter uma vida saudável e mais longa                </h1>
                 <p className='para__text'>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eius, optio obcaecati voluptatem nemo debitis accusantium praesentium provident voluptatibus, quasi quas accusamus aspernatur recusandae? Nam fuga sequi asperiores aliquid autem.
                 </p>
@@ -36,7 +35,7 @@ const Home = () => {
                               30+
                           </h2>
                           <span className="w-[100px] h-2 bg-yellowColor rounded-full block mt-[-14px]"></span>
-                          <p className="text__para">Years of Experience</p>
+                          <p className="text__para">Anos de experiência</p>
                     </div>
 
                     <div>
@@ -44,7 +43,7 @@ const Home = () => {
                               15+
                           </h2>
                           <span className="w-[100px] h-2 bg-purpleColor rounded-full block mt-[-14px]"></span>
-                          <p className="text__para">Clinic Location</p>
+                          <p className="text__para">Nota em pesquisas mundial</p>
                     </div>
 
                     <div>
@@ -52,7 +51,7 @@ const Home = () => {
                               100%
                           </h2>
                           <span className="w-[100px] h-2 bg-yellowColor rounded-full block mt-[-14px]"></span>
-                          <p className="text__para">Patient Satisfaction</p>
+                          <p className="text__para">Pacientes satisfeitos</p>
                     </div>
 
                 </div>
@@ -65,8 +64,8 @@ const Home = () => {
                     <img className="w-full" src={heroImg} alt="" />
                   </div>
                   
-                  <div className="mt-[30px]">
-                    <img className="w-full mb-[30px]" src={heroImg02} />
+                  <div className="mt-[0px]">
+                    <img className="w-full mb-[20px]" src={heroImg02} />
                     <img className="w-full" src={heroImg03} alt="" />
 
                   </div>
@@ -155,14 +154,12 @@ const Home = () => {
       </div>
     </section>
                                             {/* ===========hero content=========== */}
-                                            <section className='hero__section pt-[60px] 2xl:h=[800px]'></section>
+                                            
 
 
                                             {/* ===========hero content end=========== */}
 
-                                            <section>
-
-                                            </section>
+                                            
 
     <About/>
     </>
