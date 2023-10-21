@@ -1,4 +1,4 @@
-import {services} from './../../assets/data/service,'
+import {services} from './../../assets/data/service'
 import ServiceCard from './ServiceCard'
 
 
