@@ -11,6 +11,7 @@ import icon03 from '../assets/images/icon03.png'
 import { Link } from 'react-router-dom';
 import {BsArrowRight} from 'react-icons/bs'
 import About from '../components/About/About';
+import ServiceLister from '../components/Service/ServiceLister';
 const Home = () => {
   return (
     <>
@@ -26,7 +27,7 @@ const Home = () => {
                 <p className='para__text'>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eius, optio obcaecati voluptatem nemo debitis accusantium praesentium provident voluptatibus, quasi quas accusamus aspernatur recusandae? Nam fuga sequi asperiores aliquid autem.
                 </p>
-                <button className='btn'>Request an appoiment</button>
+                <button className='btn text-blue-500'>Request an appoiment</button>
               </div>
                           {/* ===========hero counter=========== */}
                 <div className="mt-[30px] lg:mt-[70px] flex flex-col lg:flex-row lg:items-center gap-5 lg:gap-[30px]">
@@ -149,15 +150,29 @@ const Home = () => {
 
       </div>
     </section>
-                                            {/* ===========hero content=========== */}
-                                            
-
-
-                                            {/* ===========hero content end=========== */}
-
+  
                                             
 
     <About/>
+                                                {/* ===========services section=========== */}
+
+      <section>
+        <div className='container'>
+          <div className='xl:w-[470] mx-auto'>
+            <h2 className='heading text-center'>Our Medical Service</h2>
+            <p className='text__para text-center'>
+              World-class care for everyone. Our health system offers unmatched
+            </p>
+          </div>
+          <ServiceLister/>
+
+
+        </div>
+      </section>    
+                                                  {/* ===========services section end=========== */}
+
+
+
     </>
   );
 };
